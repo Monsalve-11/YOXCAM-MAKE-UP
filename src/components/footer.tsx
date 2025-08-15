@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
             <FaWhatsapp size={28} />
           </a>
           <a
-            href="https://www.instagram.com/yoxcam__makeup?igsh=d3JmNjd6YXY0djhq"
+            href="https://www.instagram.com/yoxcam__makeup"
             target="_blank"
             rel="noopener noreferrer"
             className="transform transition duration-300 hover:scale-110"
@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
             <FaFacebook size={28} />
           </a>
           <a
-            href="https://www.tiktok.com/@cxmila__7?_t=ZS-8ypN073Ayhw&_r=1"
+            href="https://www.tiktok.com/@cxmila__7"
             target="_blank"
             rel="noopener noreferrer"
             className="transform transition duration-300 hover:scale-110"

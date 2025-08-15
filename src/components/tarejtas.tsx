@@ -688,11 +688,10 @@ const normalize = (s: string) =>
 
 const ProductCard: React.FC<{ p: Product }> = ({ p }) => {
   const phoneNumber = "573052709376";
-  const message = `Hola, quiero más información sobre este producto: ${p.name}`;
+  const message = `Hola Yoxcam__Makeup! 👋✨
+Vi tu catálogo y me interesa saber más sobre ${p.name}. 💄`;
 
-  const waUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
-    message
-  )}`;
+  const waUrl = `https://wa.me/${phoneNumber}?text=${encodeURI(message)}`;
   return (
     <div className="group relative overflow-hidden rounded-2xl bg-white/80 shadow-sm ring-1 ring-black/5 backdrop-blur transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
       {/* Glow */}
@@ -749,9 +748,14 @@ const ProductCard: React.FC<{ p: Product }> = ({ p }) => {
           >
             Comprar
           </a>
-          <button className="inline-flex items-center justify-center rounded-xl border border-gray-200 bg-white px-3.5 py-2 text-sm font-semibold text-gray-700 transition-all duration-200 hover:border-gray-300 hover:bg-gray-50">
-            Agregar al carrito
-          </button>
+          <a
+            href="/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center rounded-xl bg-purple-200 px-3.5 py-2 text-sm font-semibold text-purple-800 shadow transition-all duration-300 hover:-translate-y-0.5 hover:shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-[#70268c] focus-visible:ring-offset-2"
+          >
+            Descripción
+          </a>
         </div>
       </div>
     </div>

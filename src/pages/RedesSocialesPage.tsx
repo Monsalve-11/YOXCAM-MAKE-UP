@@ -25,9 +25,9 @@ const RedesSocialesPage: React.FC = () => {
               <SocialLinks
                 whatsappPrimary="573052709376"
                 whatsappSecondary="573025904019"
-                instagramUrl="https://instagram.com/yoxcam_makeup"
+                instagramUrl="https://www.instagram.com/yoxcam__makeup"
                 facebookUrl="https://facebook.com/yoxcam"
-                tiktokUrl="https://www.tiktok.com/@yoxcam_makeup"
+                tiktokUrl="https://www.tiktok.com/@cxmila__7"
               />
             </div>
           </section>
