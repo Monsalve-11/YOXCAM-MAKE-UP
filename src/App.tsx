@@ -40,7 +40,7 @@ export default function App() {
               whatsappPrimary="573052709376"
               whatsappSecondary="573025904019"
               instagramUrl="https://www.instagram.com/yoxcam__makeup"
-              facebookUrl="https://facebook.com/yoxcam"
+              facebookUrl="https://www.facebook.com/share/1FfvQqu4go/"
               tiktokUrl="https://www.tiktok.com/@cxmila__7"
             />
           </div>

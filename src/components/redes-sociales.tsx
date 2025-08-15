@@ -20,7 +20,7 @@ const SocialLinks: React.FC<Props> = ({
   whatsappPrimary,
   whatsappSecondary,
   instagramUrl = "https://www.instagram.com/yoxcam__makeup",
-  facebookUrl = "https://facebook.com/",
+  facebookUrl = "https://www.facebook.com/share/1FfvQqu4go/",
   tiktokUrl = "https://www.tiktok.com/@cxmila__7",
   message = "Hola 👋, vengo de la tienda y quiero más información.",
 }) => {

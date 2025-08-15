@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
             <FaInstagram size={28} />
           </a>
           <a
-            href="https://facebook.com/tu_empresa"
+            href="https://www.facebook.com/share/1FfvQqu4go/"
             target="_blank"
             rel="noopener noreferrer"
             className="transform transition duration-300 hover:scale-110"
