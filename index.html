@@ -12,6 +12,29 @@
       rel="stylesheet"
     />
     <link rel="icon" href="/banner.png" />
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyDu8XFBl7BXASI3cLJMqQwj_4GWC8WbRgw",
+        authDomain: "yoxcam-make-up.firebaseapp.com",
+        projectId: "yoxcam-make-up",
+        storageBucket: "yoxcam-make-up.firebasestorage.app",
+        messagingSenderId: "320857139099",
+        appId: "1:320857139099:web:da62ea4f469944bcf9633e",
+        measurementId: "G-HTDZLMVNFE",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
   </head>
   <body class="bg-neutral-950 text-neutral-100 antialiased">
     <div id="root"></div>
