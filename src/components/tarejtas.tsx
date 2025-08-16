@@ -1,5 +1,6 @@
 // components/ProductGridAll.tsx
 import React, { useMemo, useState } from "react";
+import Background from "./background";
 
 type Category =
   | "Labios"
@@ -824,7 +825,8 @@ const ProductGridAll: React.FC = () => {
   ];
 
   return (
-    <section className="mx-auto max-w-7xl px-4 py-10">
+    <Background>
+      <section className="mx-auto max-w-7xl px-4 py-10">
       <header className="mb-8 flex flex-wrap items-end justify-between gap-4">
         <div className="flex w-full items-center gap-3 lg:w-auto">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900">
@@ -969,7 +971,8 @@ const ProductGridAll: React.FC = () => {
           </a>
         </div>
       )}
-    </section>
+      </section>
+    </Background>
   );
 };
 

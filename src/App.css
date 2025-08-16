@@ -2,5 +2,83 @@
 
 html,
 body {
-  background: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+/* Fondo morado para toda la aplicación */
+.purple-background {
+  background: linear-gradient(135deg, #cfb2d9 0%, #cfb2d9 100%);
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Elementos parallax */
+.parallax-element {
+  position: fixed;
+  pointer-events: none;
+  z-index: -1;
+  opacity: 0.3;
+  transition: transform 0.1s ease-out;
+}
+
+.parallax-makeup-1 {
+  top: 10%;
+  left: 5%;
+  width: 80px;
+  height: 80px;
+  background: url('/images/1.jpg') center/cover;
+  border-radius: 50%;
+  filter: blur(1px);
+}
+
+.parallax-makeup-2 {
+  top: 30%;
+  right: 10%;
+  width: 60px;
+  height: 60px;
+  background: url('/images/5.jpg') center/cover;
+  border-radius: 50%;
+  filter: blur(1px);
+}
+
+.parallax-makeup-3 {
+  top: 60%;
+  left: 15%;
+  width: 70px;
+  height: 70px;
+  background: url('/images/9.jpg') center/cover;
+  border-radius: 50%;
+  filter: blur(1px);
+}
+
+.parallax-makeup-4 {
+  top: 80%;
+  right: 5%;
+  width: 90px;
+  height: 90px;
+  background: url('/images/12.jpg') center/cover;
+  border-radius: 50%;
+  filter: blur(1px);
+}
+
+.parallax-makeup-5 {
+  top: 45%;
+  left: 80%;
+  width: 50px;
+  height: 50px;
+  background: url('/images/16.jpg') center/cover;
+  border-radius: 50%;
+  filter: blur(1px);
+}
+
+.parallax-makeup-6 {
+  top: 20%;
+  left: 70%;
+  width: 65px;
+  height: 65px;
+  background: url('/images/20.jpg') center/cover;
+  border-radius: 50%;
+  filter: blur(1px);
 }

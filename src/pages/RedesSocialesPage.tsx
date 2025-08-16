@@ -2,13 +2,11 @@ import React from "react";
 import Navbar from "../components/navbar";
 import SocialLinks from "../components/redes-sociales";
 import Footer from "../components/footer";
+import Background from "../components/background";
 
 const RedesSocialesPage: React.FC = () => {
   return (
-    <>
-      {/* Fondo moradito clarito */}
-      <div className="fixed inset-0 -z-10 bg-purple-50" />
-
+    <Background>
       <div className="min-h-screen flex flex-col">
         <Navbar />
         <main className="flex-1">
@@ -34,7 +32,7 @@ const RedesSocialesPage: React.FC = () => {
         </main>
         <Footer />
       </div>
-    </>
+    </Background>
   );
 };
 
