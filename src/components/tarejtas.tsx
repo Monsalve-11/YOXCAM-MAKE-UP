@@ -702,6 +702,15 @@ Vi tu catálogo y me interesa saber más sobre ${p.name}.`;
       {/* Glow */}
       <div className="pointer-events-none absolute inset-0 rounded-2xl bg-gradient-to-br from-white/0 via-white/20 to-white/0 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
 
+      {/* Moñito decorativo en esquina superior izquierda */}
+      <div className="absolute left-2 top-2 z-10">
+        <img
+          src="/fondo.png"
+          alt="Moño decorativo"
+          className="h-8 w-8 object-contain drop-shadow-sm transition-transform duration-300 group-hover:scale-110"
+        />
+      </div>
+
       {/* Imagen */}
       <div className="aspect-[4/3] w-full overflow-hidden bg-gray-50">
         {p.imageUrl ? (
@@ -827,150 +836,150 @@ const ProductGridAll: React.FC = () => {
   return (
     <Background>
       <section className="mx-auto max-w-7xl px-4 py-10">
-      <header className="mb-8 flex flex-wrap items-end justify-between gap-4">
-        <div className="flex w-full items-center gap-3 lg:w-auto">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900">
-            Catálogo completo
-          </h2>
-          {q && (
-            <span className="rounded-full bg-gray-900/5 px-2 py-0.5 text-xs font-medium text-gray-600">
-              {totalResults} resultados
-            </span>
-          )}
-        </div>
-
-        <div className="flex w-full flex-col gap-3 sm:flex-row sm:items-center lg:w-auto">
-          {/* 🔎 Buscador por nombre */}
-          <div className="relative flex-1 sm:w-72">
-            <input
-              aria-label="Buscar producto por nombre"
-              type="text"
-              value={q}
-              onChange={(e) => setQ(e.target.value)}
-              onKeyDown={(e) => e.key === "Escape" && setQ("")}
-              placeholder="Buscar por nombre…"
-              className="w-full rounded-2xl border border-gray-200 bg-white/90 px-10 py-2.5 text-sm text-gray-800 shadow-sm outline-none backdrop-blur
-                     placeholder:text-gray-500 hover:border-gray-300
-                     focus:border-transparent focus:ring-2 focus:ring-[#70268c]/40"
-            />
-            {/* Icono */}
-            <svg
-              className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-gray-500/70"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-            >
-              <circle cx="11" cy="11" r="7" strokeWidth="2" />
-              <line x1="21" y1="21" x2="16.65" y2="16.65" strokeWidth="2" />
-            </svg>
-            {/* Limpiar */}
+        <header className="mb-8 flex flex-wrap items-end justify-between gap-4">
+          <div className="flex w-full items-center gap-3 lg:w-auto">
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900">
+              Catálogo completo
+            </h2>
             {q && (
-              <button
-                type="button"
-                onClick={() => setQ("")}
-                className="absolute right-2 top-1/2 -translate-y-1/2 rounded-full px-1.5 text-gray-500 hover:bg-gray-100"
-                aria-label="Limpiar búsqueda"
-                title="Limpiar"
-              >
-                ✕
-              </button>
+              <span className="rounded-full bg-gray-900/5 px-2 py-0.5 text-xs font-medium text-gray-600">
+                {totalResults} resultados
+              </span>
             )}
           </div>
 
-          {/* Selector de categoría */}
-          <label className="sr-only" htmlFor="cat-select">
-            Ir a categoría
-          </label>
-          <div className="relative sm:w-56">
-            <select
-              id="cat-select"
-              disabled={!!q}
-              className="w-full appearance-none rounded-2xl border border-gray-200 bg-white/90 py-2.5 pr-10 pl-4 text-sm text-gray-800 shadow-sm outline-none backdrop-blur
+          <div className="flex w-full flex-col gap-3 sm:flex-row sm:items-center lg:w-auto">
+            {/* 🔎 Buscador por nombre */}
+            <div className="relative flex-1 sm:w-72">
+              <input
+                aria-label="Buscar producto por nombre"
+                type="text"
+                value={q}
+                onChange={(e) => setQ(e.target.value)}
+                onKeyDown={(e) => e.key === "Escape" && setQ("")}
+                placeholder="Buscar por nombre…"
+                className="w-full rounded-2xl border border-gray-200 bg-white/90 px-10 py-2.5 text-sm text-gray-800 shadow-sm outline-none backdrop-blur
+                     placeholder:text-gray-500 hover:border-gray-300
+                     focus:border-transparent focus:ring-2 focus:ring-[#70268c]/40"
+              />
+              {/* Icono */}
+              <svg
+                className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-gray-500/70"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+              >
+                <circle cx="11" cy="11" r="7" strokeWidth="2" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" strokeWidth="2" />
+              </svg>
+              {/* Limpiar */}
+              {q && (
+                <button
+                  type="button"
+                  onClick={() => setQ("")}
+                  className="absolute right-2 top-1/2 -translate-y-1/2 rounded-full px-1.5 text-gray-500 hover:bg-gray-100"
+                  aria-label="Limpiar búsqueda"
+                  title="Limpiar"
+                >
+                  ✕
+                </button>
+              )}
+            </div>
+
+            {/* Selector de categoría */}
+            <label className="sr-only" htmlFor="cat-select">
+              Ir a categoría
+            </label>
+            <div className="relative sm:w-56">
+              <select
+                id="cat-select"
+                disabled={!!q}
+                className="w-full appearance-none rounded-2xl border border-gray-200 bg-white/90 py-2.5 pr-10 pl-4 text-sm text-gray-800 shadow-sm outline-none backdrop-blur
                      hover:border-gray-300 disabled:cursor-not-allowed disabled:opacity-60
                      focus:border-transparent focus:ring-2 focus:ring-[#70268c]/40"
-              onChange={(e) => {
-                const val = e.target.value;
-                const el = document.getElementById(val);
-                if (el)
-                  el.scrollIntoView({ behavior: "smooth", block: "start" });
-              }}
-            >
-              <option className="bg-white text-gray-600" value="">
-                Ir a categoría…
-              </option>
-              {categories.map((c) => (
-                <option
-                  key={c}
-                  value={`cat-${c}`}
-                  className="bg-white text-gray-800"
-                >
-                  {c}
+                onChange={(e) => {
+                  const val = e.target.value;
+                  const el = document.getElementById(val);
+                  if (el)
+                    el.scrollIntoView({ behavior: "smooth", block: "start" });
+                }}
+              >
+                <option className="bg-white text-gray-600" value="">
+                  Ir a categoría…
                 </option>
-              ))}
-            </select>
-            {/* chevron */}
-            <svg
-              className="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-gray-500/70"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-            >
-              <path
-                d="m6 9 6 6 6-6"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </div>
-        </div>
-      </header>
-
-      {categories.map((cat) => {
-        const items = filteredProducts.filter((p) => p.category === cat);
-        if (!items.length) return null;
-
-        return (
-          <div key={cat} id={`cat-${cat}`} className="mb-14 scroll-mt-28">
-            <h3 className="mb-5 text-2xl font-bold text-gray-900">{cat}</h3>
-            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
-              {items.map((p) => (
-                <ProductCard
-                  key={p.id}
-                  p={p}
-                  isSelected={selectedProducts.has(p.id)}
-                  onToggleSelection={toggleProductSelection}
+                {categories.map((c) => (
+                  <option
+                    key={c}
+                    value={`cat-${c}`}
+                    className="bg-white text-gray-800"
+                  >
+                    {c}
+                  </option>
+                ))}
+              </select>
+              {/* chevron */}
+              <svg
+                className="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-gray-500/70"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+              >
+                <path
+                  d="m6 9 6 6 6-6"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
-              ))}
+              </svg>
             </div>
           </div>
-        );
-      })}
+        </header>
 
-      {!totalResults && q && (
-        <p className="mt-10 text-center text-sm text-gray-500">
-          No hay productos que coincidan con “{q}”.
-        </p>
-      )}
+        {categories.map((cat) => {
+          const items = filteredProducts.filter((p) => p.category === cat);
+          if (!items.length) return null;
 
-      {/* Botón flotante para comprar productos seleccionados */}
-      {selectedProducts.size > 0 && (
-        <div className="fixed bottom-6 right-6 z-50">
-          <a
-            href={getWhatsAppUrl()}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 rounded-full bg-[#25D366] px-6 py-3 text-white shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl"
-          >
-            <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-1.758-.867-2.908-1.502-4.062-3.405-.309-.508.309-.472.88-1.574.098-.198.049-.371-.025-.52-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488" />
-            </svg>
-            <span className="font-semibold">
-              Comprar ({selectedProducts.size})
-            </span>
-          </a>
-        </div>
-      )}
+          return (
+            <div key={cat} id={`cat-${cat}`} className="mb-14 scroll-mt-28">
+              <h3 className="mb-5 text-2xl font-bold text-gray-900">{cat}</h3>
+              <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+                {items.map((p) => (
+                  <ProductCard
+                    key={p.id}
+                    p={p}
+                    isSelected={selectedProducts.has(p.id)}
+                    onToggleSelection={toggleProductSelection}
+                  />
+                ))}
+              </div>
+            </div>
+          );
+        })}
+
+        {!totalResults && q && (
+          <p className="mt-10 text-center text-sm text-gray-500">
+            No hay productos que coincidan con “{q}”.
+          </p>
+        )}
+
+        {/* Botón flotante para comprar productos seleccionados */}
+        {selectedProducts.size > 0 && (
+          <div className="fixed bottom-6 right-6 z-50">
+            <a
+              href={getWhatsAppUrl()}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 rounded-full bg-[#25D366] px-6 py-3 text-white shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl"
+            >
+              <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-1.758-.867-2.908-1.502-4.062-3.405-.309-.508.309-.472.88-1.574.098-.198.049-.371-.025-.52-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488" />
+              </svg>
+              <span className="font-semibold">
+                Comprar ({selectedProducts.size})
+              </span>
+            </a>
+          </div>
+        )}
       </section>
     </Background>
   );

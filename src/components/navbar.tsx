@@ -1,5 +1,5 @@
-import React, { useEffect, useMemo, useState } from 'react';
-import { useLocation, Link } from 'react-router-dom';
+import React, { useEffect, useMemo, useState } from "react";
+import { useLocation, Link } from "react-router-dom";
 
 type NavLink = { href: string; label: string };
 
@@ -53,17 +53,24 @@ const Navbar: React.FC = () => {
     <header className="sticky top-0 z-40 bg-[#70268c] [padding-top:env(safe-area-inset-top)] text-white shadow-md">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 lg:px-6">
         {/* Logo */}
-        <Link
-          to="/"
-          className="flex items-center gap-2 rounded transition-transform duration-300 hover:scale-[1.02] focus:outline-none focus-visible:ring-2 focus-visible:ring-white/60"
-          aria-label="Ir al inicio"
-        >
+        <div className="flex items-center gap-3">
           <img
-            className="h-10 w-auto rounded-[12px] bg-white p-1"
-            src="/banner.png"
-            alt="Logo"
+            src="/fondo.png"
+            alt="Moño decorativo"
+            className="h-10 w-10 object-contain drop-shadow-sm transition-transform duration-300 hover:scale-110"
           />
-        </Link>
+          <Link
+            to="/"
+            className="flex items-center gap-2 rounded transition-transform duration-300 hover:scale-[1.02] focus:outline-none focus-visible:ring-2 focus-visible:ring-white/60"
+            aria-label="Ir al inicio"
+          >
+            <img
+              className="h-10 w-auto rounded-[12px] bg-white p-1"
+              src="/banner.png"
+              alt="Logo"
+            />
+          </Link>
+        </div>
 
         {/* Desktop links */}
         <div className="hidden items-center gap-6 lg:flex">
@@ -72,7 +79,9 @@ const Navbar: React.FC = () => {
               key={link.href}
               to={link.href}
               className={`${baseLink} ${isActive(link.href)}`}
-              aria-current={location.pathname === link.href ? "page" : undefined}
+              aria-current={
+                location.pathname === link.href ? "page" : undefined
+              }
             >
               {link.label}
             </Link>
@@ -153,9 +162,13 @@ const Navbar: React.FC = () => {
                 key={link.href}
                 to={link.href}
                 className={`px-4 py-3 text-base hover:bg-white/10 focus:bg-white/10 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/60 ${
-                  location.pathname === link.href ? "text-[#F1E6FF]" : "text-white"
+                  location.pathname === link.href
+                    ? "text-[#F1E6FF]"
+                    : "text-white"
                 }`}
-                aria-current={location.pathname === link.href ? "page" : undefined}
+                aria-current={
+                  location.pathname === link.href ? "page" : undefined
+                }
                 onClick={() => setOpen(false)}
               >
                 {link.label}
