@@ -56,14 +56,14 @@ const products: Product[] = [
     name: "Lip Balm Love",
     price: 7000,
     category: "Labios",
-    imageUrl: "images/5.jpg",
+    imageUrl: "images/labios/lip-balm-love.jpg",
   }, // :contentReference[oaicite:4]{index=4}
   {
     id: "tinta-cherry",
     name: "Tinta Cherry",
     price: 6700,
     category: "Labios",
-    imageUrl: "images/6.jpg",
+    imageUrl: "images/labios/tinta-cherry.jpg",
   }, // :contentReference[oaicite:5]{index=5}
   {
     id: "bloom-lip",
@@ -89,9 +89,9 @@ const products: Product[] = [
   {
     id: "delineador-labios-bloomshell",
     name: "Delineador de Labios Bloomshell",
-    price: 11000,
+    price: 12000,
     category: "Labios",
-    imageUrl: "images/10.jpg",
+    imageUrl: "images/labios/delineador-labios-bloomshell.jpg",
   }, // :contentReference[oaicite:9]{index=9}
   {
     id: "tinta-de-paleta",
@@ -133,7 +133,7 @@ const products: Product[] = [
     name: "Color Bloom Glow Bloomshell",
     price: 18000,
     category: "Labios",
-    imageUrl: "images/16.jpg",
+    imageUrl: "images/labios/color-bloom-glow.jpg",
   }, // :contentReference[oaicite:15]{index=15}
   {
     id: "balsamo-bioaqua",
@@ -307,8 +307,15 @@ const products: Product[] = [
   {
     id: "corrector-bloomshell-10ml",
     name: "Corrector Bloomshell 10ml",
-    price: 19500,
+    price: 1500,
     category: "Rostro",
+  }, // :contentReference[oaicite:37]{index=37}
+  {
+    id: "Rubor-bloomshell",
+    name: "Rubor Bloomshell",
+    price: 18500,
+    category: "Rostro",
+    imageUrl: "images/rostro/Rubor-bloomshell.jpg",
   }, // :contentReference[oaicite:37]{index=37}
   {
     id: "corrector-bloomshell-20ml",
@@ -613,6 +620,13 @@ const products: Product[] = [
     name: "Serum Ceramidas + Ácido Hialurónico",
     price: 10000,
     category: "Cuidado Facial",
+  }, // :contentReference[oaicite:84]{index=84}
+  {
+    id: "serum-de-arroz-bioaqua",
+    name: "serum de arroz bioaqua",
+    price: 13500,
+    category: "Cuidado Facial",
+    imageUrl: "images/cuidadofacial/serum-de-arroz-bioaqua.jpg",
   }, // :contentReference[oaicite:84]{index=84}
   {
     id: "kit-niacinamida-og-x3",
