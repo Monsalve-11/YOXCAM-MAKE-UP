@@ -28,21 +28,21 @@ const products: Product[] = [
     price: 8000,
     category: "Labios",
     note: "AGOTADO",
-    imageUrl: "images/1.jpg",
+    imageUrl: "images/labios/fat-oil.jpg",
   }, // :contentReference[oaicite:0]{index=0}
   {
     id: "lip-tint",
     name: "Lip Tint",
     price: 7000,
     category: "Labios",
-    imageUrl: "images/2.jpg",
+    imageUrl: "images/labios/lip-tint.jpg",
   }, // :contentReference[oaicite:1]{index=1}
   {
     id: "mascara-reparadora-labios",
     name: "Máscara Reparadora de Labios",
     price: 12000,
     category: "Labios",
-    imageUrl: "images/3.jpg",
+    imageUrl: "images/labios/mascara-reparadora-labios.jpg",
   }, // :contentReference[oaicite:2]{index=2}
   {
     id: "delineador-labios-trendy",
@@ -112,7 +112,7 @@ const products: Product[] = [
     name: "Bálsamo Hidratante de Fresa",
     price: 5000,
     category: "Labios",
-    imageUrl: "images/13.jpg",
+    imageUrl: "images/labios/balsamo-hidratante-fresa.jpg",
   }, // :contentReference[oaicite:12]{index=12}
   {
     id: "lip-balm-fresa-color",
@@ -126,7 +126,7 @@ const products: Product[] = [
     name: "Tinta de Labios Kuromi",
     price: 6000,
     category: "Labios",
-    imageUrl: "images/15.jpg",
+    imageUrl: "images/labios/tinta-labios-kuromi.jpg",
   }, // :contentReference[oaicite:14]{index=14}
   {
     id: "color-bloom-glow",
@@ -134,6 +134,20 @@ const products: Product[] = [
     price: 18000,
     category: "Labios",
     imageUrl: "images/16.jpg",
+  }, // :contentReference[oaicite:15]{index=15}
+  {
+    id: "balsamo-bioaqua",
+    name: "balsamo bioaqua",
+    price: 8000,
+    category: "Labios",
+    imageUrl: "images/labios/balsamo bioaqua.jpg",
+  }, // :contentReference[oaicite:15]{index=15}
+  {
+    id: "lit-tint-alissha",
+    name: "Lit Tint Alissha",
+    price: 9500,
+    category: "Labios",
+    imageUrl: "images/labios/lit-tint-alissha.jpg",
   }, // :contentReference[oaicite:15]{index=15}
 
   // ===== OJOS =====
@@ -177,7 +191,7 @@ const products: Product[] = [
     name: "Jabón de Cejas Kuromi G33",
     price: 6000,
     category: "Ojos",
-    imageUrl: "images/22.jpg",
+    imageUrl: "images/ojos/jabon-cejas-kuromi-g33.jpg",
   }, // :contentReference[oaicite:21]{index=21}
   {
     id: "gel-cejas-g02",
@@ -258,10 +272,18 @@ const products: Product[] = [
     category: "Rostro",
   }, // :contentReference[oaicite:32]{index=32}
   {
+    id: "Iluminador",
+    name: "Iluminador",
+    price: 8000,
+    category: "Rostro",
+    imageUrl: "images/rostro/iluminador.jpg",
+  }, // :contentReference[oaicite:32]{index=32}
+  {
     id: "corrector-alissha",
     name: "Corrector ALISSHA",
     price: 17000,
     category: "Rostro",
+    imageUrl: "images/rostro/corrector-alissha.jpg",
   }, // :contentReference[oaicite:33]{index=33}
   {
     id: "polvo-suelto-paulis",
@@ -269,7 +291,13 @@ const products: Product[] = [
     price: 15000,
     category: "Rostro",
   }, // :contentReference[oaicite:34]{index=34}
-  { id: "rubor-kuromi", name: "Rubor Kuromi", price: 8000, category: "Rostro" }, // :contentReference[oaicite:35]{index=35}
+  {
+    id: "rubor-kuromi",
+    name: "Rubor Kuromi",
+    price: 8000,
+    category: "Rostro",
+    imageUrl: "images/rostro/rubor-kuromi.jpg",
+  }, // :contentReference[oaicite:35]{index=35}
   {
     id: "fijador-star-karite",
     name: "Fijador Star Karité",
@@ -289,6 +317,13 @@ const products: Product[] = [
     category: "Rostro",
   }, // :contentReference[oaicite:38]{index=38}
   {
+    id: "corrector-Lula",
+    name: "Corrector Lula",
+    price: 17500,
+    category: "Rostro",
+    imageUrl: "images/rostro/corrector-Lula.jpg",
+  }, // :contentReference[oaicite:38]{index=38}
+  {
     id: "base-bloomshell-2en1",
     name: "Base Bloomshell 2 en 1",
     price: 30000,
@@ -302,9 +337,10 @@ const products: Product[] = [
   }, // :contentReference[oaicite:40]{index=40}
   {
     id: "base-mate-lula",
-    name: "Base Mate LULA",
+    name: "Base Mate Lula",
     price: 24500,
     category: "Rostro",
+    imageUrl: "images/rostro/base-mate-lula.jpg",
   }, // :contentReference[oaicite:41]{index=41}
   {
     id: "polvo-nailen",
@@ -321,8 +357,9 @@ const products: Product[] = [
   {
     id: "base-matte-alissha",
     name: "Base Matte ALISSHA",
-    price: 22500,
+    price: 19500,
     category: "Rostro",
+    imageUrl: "images/rostro/base-matte-alissha.jpg",
   }, // :contentReference[oaicite:44]{index=44}
   {
     id: "polvo-compacto-myk",
@@ -561,6 +598,13 @@ const products: Product[] = [
     name: "Set de Beauty Blender x4",
     price: 10000,
     category: "Accesorios",
+  }, // :contentReference[oaicite:83]{index=83}
+  {
+    id: "encrespador-bloomshell",
+    name: "encrespador bloomshell",
+    price: 15500,
+    category: "Accesorios",
+    imageUrl: "images/accesorios/encrespador-bloomshell.jpg",
   }, // :contentReference[oaicite:83]{index=83}
 
   // ===== CUIDADO FACIAL =====
