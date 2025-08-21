@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
             <FaFacebook size={28} />
           </a>
           <a
-            href="https://www.tiktok.com/@cxmila__7"
+            href="https://www.tiktok.com/@yoxelin__7?_t=ZS-8z3zCJxmQYS&_r=1"
             target="_blank"
             rel="noopener noreferrer"
             className="transform transition duration-300 hover:scale-110"
