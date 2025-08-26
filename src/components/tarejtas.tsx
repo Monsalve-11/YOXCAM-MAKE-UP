@@ -505,14 +505,16 @@ const products: Product[] = [
   {
     id: "brocha-base",
     name: "Brocha de Base",
-    price: 16900,
+    price: 17900,
     category: "Brochas",
+    imageUrl: "images/brochas/Brocha-de-base.jpg",
   },
   {
     id: "brocha-rubor",
     name: "Brocha de Rubor",
     price: 17500,
     category: "Brochas",
+    imageUrl: "images/brochas/Brocha-de-rubor.jpg",
   },
   {
     id: "brocha-doble-trendy",
@@ -524,32 +526,37 @@ const products: Product[] = [
   {
     id: "brocha-corrector",
     name: "Brocha Corrector",
-    price: 13000,
+    price: 14000,
     category: "Brochas",
+    imageUrl: "images/brochas/Brocha-de-corrector.jpg",
   },
   {
-    id: "brocha-cejas",
-    name: "Brocha de Cejas",
+    id: "brocha-cejas-doble",
+    name: "Brocha de Cejas Dobles",
     price: 16900,
     category: "Brochas",
+    imageUrl: "images/brochas/Brocha-de-cejas-doble.jpg",
   },
   {
     id: "kit-brocha-5-trendy",
     name: "Kit Brocha x5 Trendy",
-    price: 16000,
+    price: 16500,
     category: "Brochas",
+    imageUrl: "images/brochas/Kit-de-brocha-X5-de-trendy.jpg",
   },
   {
     id: "kit-brocha-10",
     name: "Kit Brocha x10",
-    price: 23000,
+    price: 23500,
     category: "Brochas",
+    imageUrl: "images/brochas/Kit-de-brocha-x10.jpg",
   },
   {
     id: "kit-brocha-6",
     name: "Kit Brocha x6",
-    price: 15500,
+    price: 16500,
     category: "Brochas",
+    imageUrl: "images/brochas/Kit-de-brochas-x6.jpg",
   },
 
   // ===== ACCESORIOS =====
