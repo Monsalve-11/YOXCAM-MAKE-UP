@@ -269,6 +269,7 @@ const products: Product[] = [
     name: "Polvo Suelto RAQUEL",
     price: 25000,
     category: "Rostro",
+    imageUrl: "images/rostro/Polvo-suelto-Raquel.jpg",
   },
   {
     id: "Iluminador",
@@ -276,6 +277,13 @@ const products: Product[] = [
     price: 8000,
     category: "Rostro",
     imageUrl: "images/rostro/iluminador.jpg",
+  },
+  {
+    id: "Rubor-bloomshell-love",
+    name: "Rubor Bloomshell Love",
+    price: 18500,
+    category: "Rostro",
+    imageUrl: "images/rostro/Rubor-bloomshell-love.jpg",
   },
   {
     id: "corrector-alissha",
@@ -289,6 +297,7 @@ const products: Product[] = [
     name: "Polvo Suelto PAULIS",
     price: 15000,
     category: "Rostro",
+    imageUrl: "images/rostro/Polvo-suelto-paulis.jpg",
   },
   {
     id: "rubor-kuromi",
@@ -302,12 +311,14 @@ const products: Product[] = [
     name: "Fijador Star Karité",
     price: 17000,
     category: "Rostro",
+    imageUrl: "images/rostro/Fijador-star-karite.jpg",
   },
   {
     id: "corrector-bloomshell-10ml",
     name: "Corrector Bloomshell 10ml",
     price: 1500,
     category: "Rostro",
+    imageUrl: "images/rostro/Corrector-bloomshell-de-10ml.jpg",
   },
   {
     id: "Rubor-bloomshell",
@@ -321,6 +332,7 @@ const products: Product[] = [
     name: "Corrector Bloomshell 20ml",
     price: 27500,
     category: "Rostro",
+    imageUrl: "images/rostro/Corrector-bloomshell-de-20ml.jpg",
   },
   {
     id: "corrector-Lula",
@@ -334,12 +346,14 @@ const products: Product[] = [
     name: "Base Bloomshell 2 en 1",
     price: 30000,
     category: "Rostro",
+    imageUrl: "images/rostro/Base-bloomshell-2en1.jpg",
   },
   {
     id: "polvo-pauli-2en1",
     name: "Polvo Pauli 2 en 1",
     price: 13500,
     category: "Rostro",
+    imageUrl: "images/rostro/Polvo-paulis-2en1.jpg",
   },
   {
     id: "base-mate-lula",
@@ -353,6 +367,7 @@ const products: Product[] = [
     name: "Polvo NAILEN",
     price: 15000,
     category: "Rostro",
+    imageUrl: "images/rostro/Polvo-nailen.jpg",
   },
   {
     id: "corrector-grande-trendy",
@@ -363,15 +378,16 @@ const products: Product[] = [
   {
     id: "base-matte-alissha",
     name: "Base Matte ALISSHA",
-    price: 19500,
+    price: 22500,
     category: "Rostro",
-    imageUrl: "images/rostro/base-matte-alissha.jpg",
+    imageUrl: "images/rostro/Base-mate-alissha.jpg",
   },
   {
     id: "polvo-compacto-myk",
     name: "Polvo Compacto MYK",
-    price: 13900,
+    price: 14000,
     category: "Rostro",
+    imageUrl: "images/rostro/Polvo-compacto-myk.jpg",
   },
   {
     id: "paleta-rubores-atenea",
@@ -382,28 +398,37 @@ const products: Product[] = [
   {
     id: "rubor-compacto",
     name: "Rubor Compacto",
-    price: 10000,
+    price: 11000,
     category: "Rostro",
+    imageUrl: "images/rostro/Ruborcompacto.jpg",
   },
-  { id: "rubor-ani-k", name: "Rubor ANI-K", price: 18500, category: "Rostro" },
+  {
+    id: "rubor-ani-k",
+    name: "Rubor ANI-K",
+    price: 18500,
+    category: "Rostro",
+    imageUrl: "images/rostro/Rubor-Ani-k.jpg",
+  },
   {
     id: "base-alissha",
     name: "Base Alissha",
     price: 19500,
     category: "Rostro",
-    note: "Texto en PDF: 'ALIS+SHA'",
+    imageUrl: "images/rostro/Base-alis-sha.jpg",
   },
   {
     id: "polvo-suelto-girly-mini",
     name: "Polvo Suelto GIRLY (Mini)",
     price: 21000,
     category: "Rostro",
+    imageUrl: "images/rostro/Polvo-suelto-girly-mini.jpg",
   },
   {
     id: "polvo-suelto-girly-grande",
     name: "Polvo Suelto GIRLY (Grande)",
     price: 30000,
     category: "Rostro",
+    imageUrl: "images/rostro/Polvo-suelto-girly-grande.jpg",
   },
 
   // ===== SOMBRAS =====
