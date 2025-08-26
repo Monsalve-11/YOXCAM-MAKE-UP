@@ -19,9 +19,9 @@ function buildWaUrl(phone: string, text?: string) {
 const SocialLinks: React.FC<Props> = ({
   whatsappPrimary,
   whatsappSecondary,
-  instagramUrl = "https://www.instagram.com/yoxcam__makeup",
-  facebookUrl = "https://www.facebook.com/share/1FfvQqu4go/",
-  tiktokUrl = "https://www.tiktok.com/@yoxelin__7?_t=ZS-8z3zCJxmQYS&_r=1",
+  instagramUrl,
+  facebookUrl,
+  tiktokUrl,
   message = "Hola 👋, vengo de la tienda y quiero más información.",
 }) => {
   const items = [
