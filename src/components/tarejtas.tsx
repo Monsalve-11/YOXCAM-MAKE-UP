@@ -433,17 +433,25 @@ const products: Product[] = [
 
   // ===== SOMBRAS =====
   {
+    id: "paleta-sombras-atenea-65k",
+    name: "Paleta de Sombras Atenea",
+    price: 65500,
+    category: "Sombras",
+    imageUrl: "images/sombras/Paleta-de-sombra-Atenea.jpg",
+  },
+  {
     id: "paleta-sombras-atenea-78k",
     name: "Paleta de Sombras Atenea",
     price: 78500,
     category: "Sombras",
-    badge: "Premium",
+    imageUrl: "images/sombras/Paleta-de-sombra-Atenea-78k.jpg",
   },
   {
     id: "paleta-alissha",
     name: "Paleta Alissha",
     price: 22000,
     category: "Sombras",
+    imageUrl: "images/sombras/Paleta-de-sombra-alissha.jpg",
   },
   {
     id: "paleta-sombras-atenea-65k",
@@ -456,12 +464,21 @@ const products: Product[] = [
     name: "Paleta de Sombra Ártica",
     price: 62000,
     category: "Sombras",
+    imageUrl: "images/sombras/Paleta-de-sombra-artica.jpg",
   },
   {
     id: "paleta-nude-18",
     name: "Paleta Nude x18 tonos",
-    price: 16000,
+    price: 17000,
     category: "Sombras",
+    imageUrl: "images/sombras/Paleta-nude-x18-tonos.jpg",
+  },
+  {
+    id: "paleta-de-sombra-x9-tonos",
+    name: "Paleta de sombra x9 tonos",
+    price: 14000,
+    category: "Sombras",
+    imageUrl: "images/sombras/Paleta-de-sombra-x9-tonos.jpg",
   },
   {
     id: "paleta-7",
@@ -472,14 +489,16 @@ const products: Product[] = [
   {
     id: "paleta-54",
     name: "Paleta de Sombras x54 tonos",
-    price: 31500,
+    price: 32000,
     category: "Sombras",
+    imageUrl: "images/sombras/Paleta-de-sombra-x54-tonos.jpg",
   },
   {
     id: "paleta-24",
     name: "Paleta de Sombra x24 tonos",
     price: 17000,
     category: "Sombras",
+    imageUrl: "images/sombras/Paleta-de-sombras-x24-tonos.jpg",
   },
 
   // ===== BROCHAS =====
@@ -500,6 +519,7 @@ const products: Product[] = [
     name: "Brocha Doble Trendy",
     price: 18000,
     category: "Brochas",
+    imageUrl: "images/brochas/Brocha-trendy-doble.jpg",
   },
   {
     id: "brocha-corrector",
