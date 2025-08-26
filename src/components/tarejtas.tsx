@@ -27,128 +27,127 @@ const products: Product[] = [
     name: "Fat Oil",
     price: 8000,
     category: "Labios",
-    note: "AGOTADO",
     imageUrl: "images/labios/fat-oil.jpg",
-  }, // :contentReference[oaicite:0]{index=0}
+  },
   {
     id: "lip-tint",
     name: "Lip Tint",
     price: 7000,
     category: "Labios",
     imageUrl: "images/labios/lip-tint.jpg",
-  }, // :contentReference[oaicite:1]{index=1}
+  },
   {
     id: "mascara-reparadora-labios",
     name: "Máscara Reparadora de Labios",
     price: 12000,
     category: "Labios",
     imageUrl: "images/labios/mascara-reparadora-labios.jpg",
-  }, // :contentReference[oaicite:2]{index=2}
+  },
   {
     id: "delineador-labios-trendy",
     name: "Delineador de Labios Trendy",
     price: 10000,
     category: "Labios",
-    imageUrl: "images/4.jpg",
-  }, // :contentReference[oaicite:3]{index=3}
+    imageUrl: "images/labios/Delineador-de-labios-trendy.jpg",
+  },
   {
     id: "lip-balm-love",
     name: "Lip Balm Love",
     price: 7000,
     category: "Labios",
     imageUrl: "images/labios/lip-balm-love.jpg",
-  }, // :contentReference[oaicite:4]{index=4}
+  },
   {
     id: "tinta-cherry",
     name: "Tinta Cherry",
     price: 6700,
     category: "Labios",
     imageUrl: "images/labios/tinta-cherry.jpg",
-  }, // :contentReference[oaicite:5]{index=5}
+  },
   {
-    id: "bloom-lip",
-    name: "Bloom Lip",
+    id: "bloom-lip-bloomshell",
+    name: "Bloom Lip Bloomshell",
     price: 17500,
     category: "Labios",
-    imageUrl: "images/7.jpg",
-  }, // :contentReference[oaicite:6]{index=6}
+    imageUrl: "images/labios/BLOOM-LIP-DE-BLOOMSHELL.jpg",
+  },
   {
     id: "click-tint-bloomshell",
     name: "Click Tint Bloomshell",
     price: 18900,
     category: "Labios",
-    imageUrl: "images/8.jpg",
-  }, // :contentReference[oaicite:7]{index=7}
+    imageUrl: "images/labios/CLINK-TINT-BLOOMSHELL.jpg",
+  },
   {
     id: "bloom-gloss",
     name: "Bloom Gloss",
     price: 17500,
     category: "Labios",
     imageUrl: "images/9.jpg",
-  }, // :contentReference[oaicite:8]{index=8}
+  },
   {
     id: "delineador-labios-bloomshell",
     name: "Delineador de Labios Bloomshell",
     price: 12000,
     category: "Labios",
     imageUrl: "images/labios/delineador-labios-bloomshell.jpg",
-  }, // :contentReference[oaicite:9]{index=9}
-  {
-    id: "tinta-de-paleta",
-    name: "Tinta de Paleta",
-    price: 5000,
-    category: "Labios",
-    imageUrl: "images/11.jpg",
-  }, // :contentReference[oaicite:10]{index=10}
+  },
   {
     id: "lip-gloss-anik",
     name: "Lip Gloss ANIK",
     price: 21000,
     category: "Labios",
-    imageUrl: "images/12.jpg",
-  }, // :contentReference[oaicite:11]{index=11}
+    imageUrl: "images/labios/LIP-GLOSS-ANIKA.jpg",
+  },
   {
     id: "balsamo-hidratante-fresa",
     name: "Bálsamo Hidratante de Fresa",
     price: 5000,
     category: "Labios",
     imageUrl: "images/labios/balsamo-hidratante-fresa.jpg",
-  }, // :contentReference[oaicite:12]{index=12}
+  },
   {
     id: "lip-balm-fresa-color",
     name: "Lip Balm Fresa con Color",
     price: 4500,
     category: "Labios",
     imageUrl: "images/14.jpg",
-  }, // :contentReference[oaicite:13]{index=13}
+  },
   {
     id: "tinta-labios-kuromi",
     name: "Tinta de Labios Kuromi",
     price: 6000,
     category: "Labios",
-    imageUrl: "images/labios/tinta-labios-kuromi.jpg",
-  }, // :contentReference[oaicite:14]{index=14}
+    imageUrl: "images/labios/Tinta-de-labios-kuromi.jpg",
+  },
   {
     id: "color-bloom-glow",
     name: "Color Bloom Glow Bloomshell",
     price: 18000,
     category: "Labios",
     imageUrl: "images/labios/color-bloom-glow.jpg",
-  }, // :contentReference[oaicite:15]{index=15}
+  },
   {
     id: "balsamo-bioaqua",
     name: "balsamo bioaqua",
     price: 8000,
     category: "Labios",
     imageUrl: "images/labios/balsamo bioaqua.jpg",
-  }, // :contentReference[oaicite:15]{index=15}
+  },
   {
     id: "lit-tint-alissha",
     name: "Lit Tint Alissha",
     price: 9500,
     category: "Labios",
     imageUrl: "images/labios/lit-tint-alissha.jpg",
-  }, // :contentReference[oaicite:15]{index=15}
+  },
+  {
+    id: "tinta-paleta",
+    name: "Tinta Paleta",
+    price: 5000,
+    category: "Labios",
+    imageUrl: "images/labios/Tinta-paleta.jpg",
+  },
 
   // ===== OJOS =====
   {
@@ -156,113 +155,113 @@ const products: Product[] = [
     name: "Set de Cejas LULA",
     price: 10000,
     category: "Ojos",
-    imageUrl: "images/17.jpg",
-  }, // :contentReference[oaicite:16]{index=16}
+    imageUrl: "images/ojos/Set-de-cejas-lula.jpg",
+  },
   {
     id: "pestanina-prosa",
     name: "Pestañina PROSA Negra",
     price: 20000,
     category: "Ojos",
-    imageUrl: "images/18.jpg",
-  }, // :contentReference[oaicite:17]{index=17}
+    imageUrl: "images/ojos/Pestañina-prosa.jpg",
+  },
   {
     id: "set-pestanas-alma",
     name: "Set x3 de Pestañas Alma Beauty",
     price: 15000,
     category: "Ojos",
-    imageUrl: "images/19.jpg",
-  }, // :contentReference[oaicite:18]{index=18}
+    imageUrl: "images/ojos/Set-X3-de-pestañas-alma-Beauty.jpg",
+  },
   {
     id: "lapiz-ceja-doble",
     name: "Lápiz de Ceja Doble",
     price: 12500,
     category: "Ojos",
-    imageUrl: "images/20.jpg",
-  }, // :contentReference[oaicite:19]{index=19}
+    imageUrl: "images/ojos/Lapiz-de-cejas-doble.jpg",
+  },
   {
     id: "pestanina-transparente-fruit",
     name: "Pestañina Transparente Fruit",
     price: 6500,
     category: "Ojos",
-    imageUrl: "images/21.jpg",
-  }, // :contentReference[oaicite:20]{index=20}
+    imageUrl: "images/ojos/Pestañina-transparente-fruit.jpg",
+  },
   {
     id: "jabon-cejas-kuromi-g33",
     name: "Jabón de Cejas Kuromi G33",
     price: 6000,
     category: "Ojos",
     imageUrl: "images/ojos/jabon-cejas-kuromi-g33.jpg",
-  }, // :contentReference[oaicite:21]{index=21}
+  },
   {
     id: "gel-cejas-g02",
     name: "Gel de Cejas G02",
     price: 28000,
     category: "Ojos",
-    imageUrl: "images/23.jpg",
-  }, // :contentReference[oaicite:22]{index=22}
+    imageUrl: "images/ojos/Gel-de-cejas-got2.jpg",
+  },
   {
     id: "delineador-plumon-kiss",
     name: "Delineador Plumón KISS",
     price: 10000,
     category: "Ojos",
-    imageUrl: "images/24.jpg",
-  }, // :contentReference[oaicite:23]{index=23}
+    imageUrl: "images/ojos/Delineador-plumon-kiss.jpg",
+  },
   {
     id: "set-cejas-alissha",
     name: "Set de Cejas Alissha",
     price: 16500,
     category: "Ojos",
-    imageUrl: "images/25.jpg",
-  }, // :contentReference[oaicite:24]{index=24}
+    imageUrl: "images/ojos/Set-de-cejas-alissha.jpg",
+  },
   {
     id: "tratamiento-cejas-pestanas-bioaqua",
     name: "Tratamiento de Cejas y Pestañas Bioaqua",
     price: 8500,
     category: "Ojos",
-    imageUrl: "images/26.jpg",
-  }, // :contentReference[oaicite:25]{index=25}
+    imageUrl: "images/ojos/Tratamiento-de-cejas-pestañas-BIOAQUA.jpg",
+  },
   {
     id: "gel-cejas-melu",
     name: "Gel de Cejas MELU",
     price: 19800,
     category: "Ojos",
-    imageUrl: "images/27.jpg",
-  }, // :contentReference[oaicite:26]{index=26}
+    imageUrl: "images/ojos/Gel-de-cejas-Melu.jpg",
+  },
   {
     id: "pestanina-dolce-bella",
     name: "Pestañina Dolce Bella",
     price: 17300,
     category: "Ojos",
-    imageUrl: "images/28.jpg",
-  }, // :contentReference[oaicite:27]{index=27}
+    imageUrl: "images/ojos/Pestañina-dolce-bella.jpg",
+  },
   {
     id: "pestanina-ajedrez-kiss",
     name: "Pestañina Ajedrez KISS",
     price: 14000,
     category: "Ojos",
     imageUrl: "images/29.jpg",
-  }, // :contentReference[oaicite:28]{index=28}
+  },
   {
     id: "lapiz-ojos-montoc",
     name: "Lápiz de Ojos MONTOC",
     price: 15500,
     category: "Ojos",
-    imageUrl: "images/30.jpg",
-  }, // :contentReference[oaicite:29]{index=29}
+    imageUrl: "images/ojos/Lapiz-de-ojos-montoc.jpg",
+  },
   {
     id: "kit-cejas-anik",
     name: "Kit de Cejas ANIK",
     price: 19000,
     category: "Ojos",
-    imageUrl: "images/31.jpg",
-  }, // :contentReference[oaicite:30]{index=30}
+    imageUrl: "images/ojos/Kit-de-cejas-Ani-k.jpg",
+  },
   {
     id: "delineado-gatito",
     name: "Delineado de Gatito",
     price: 8500,
     category: "Ojos",
-    note: "Agotado",
-  }, // :contentReference[oaicite:31]{index=31}
+    imageUrl: "images/ojos/Delineador-de-gatito.jpg",
+  },
 
   // ===== ROSTRO =====
   {
@@ -270,142 +269,142 @@ const products: Product[] = [
     name: "Polvo Suelto RAQUEL",
     price: 25000,
     category: "Rostro",
-  }, // :contentReference[oaicite:32]{index=32}
+  },
   {
     id: "Iluminador",
     name: "Iluminador",
     price: 8000,
     category: "Rostro",
     imageUrl: "images/rostro/iluminador.jpg",
-  }, // :contentReference[oaicite:32]{index=32}
+  },
   {
     id: "corrector-alissha",
     name: "Corrector ALISSHA",
     price: 17000,
     category: "Rostro",
     imageUrl: "images/rostro/corrector-alissha.jpg",
-  }, // :contentReference[oaicite:33]{index=33}
+  },
   {
     id: "polvo-suelto-paulis",
     name: "Polvo Suelto PAULIS",
     price: 15000,
     category: "Rostro",
-  }, // :contentReference[oaicite:34]{index=34}
+  },
   {
     id: "rubor-kuromi",
     name: "Rubor Kuromi",
     price: 8000,
     category: "Rostro",
     imageUrl: "images/rostro/rubor-kuromi.jpg",
-  }, // :contentReference[oaicite:35]{index=35}
+  },
   {
     id: "fijador-star-karite",
     name: "Fijador Star Karité",
     price: 17000,
     category: "Rostro",
-  }, // :contentReference[oaicite:36]{index=36}
+  },
   {
     id: "corrector-bloomshell-10ml",
     name: "Corrector Bloomshell 10ml",
     price: 1500,
     category: "Rostro",
-  }, // :contentReference[oaicite:37]{index=37}
+  },
   {
     id: "Rubor-bloomshell",
     name: "Rubor Bloomshell",
     price: 18500,
     category: "Rostro",
     imageUrl: "images/rostro/Rubor-bloomshell.jpg",
-  }, // :contentReference[oaicite:37]{index=37}
+  },
   {
     id: "corrector-bloomshell-20ml",
     name: "Corrector Bloomshell 20ml",
     price: 27500,
     category: "Rostro",
-  }, // :contentReference[oaicite:38]{index=38}
+  },
   {
     id: "corrector-Lula",
     name: "Corrector Lula",
     price: 17500,
     category: "Rostro",
     imageUrl: "images/rostro/corrector-Lula.jpg",
-  }, // :contentReference[oaicite:38]{index=38}
+  },
   {
     id: "base-bloomshell-2en1",
     name: "Base Bloomshell 2 en 1",
     price: 30000,
     category: "Rostro",
-  }, // :contentReference[oaicite:39]{index=39}
+  },
   {
     id: "polvo-pauli-2en1",
     name: "Polvo Pauli 2 en 1",
     price: 13500,
     category: "Rostro",
-  }, // :contentReference[oaicite:40]{index=40}
+  },
   {
     id: "base-mate-lula",
     name: "Base Mate Lula",
     price: 24500,
     category: "Rostro",
     imageUrl: "images/rostro/base-mate-lula.jpg",
-  }, // :contentReference[oaicite:41]{index=41}
+  },
   {
     id: "polvo-nailen",
     name: "Polvo NAILEN",
     price: 15000,
     category: "Rostro",
-  }, // :contentReference[oaicite:42]{index=42}
+  },
   {
     id: "corrector-grande-trendy",
     name: "Corrector Grande Trendy",
     price: 26000,
     category: "Rostro",
-  }, // :contentReference[oaicite:43]{index=43}
+  },
   {
     id: "base-matte-alissha",
     name: "Base Matte ALISSHA",
     price: 19500,
     category: "Rostro",
     imageUrl: "images/rostro/base-matte-alissha.jpg",
-  }, // :contentReference[oaicite:44]{index=44}
+  },
   {
     id: "polvo-compacto-myk",
     name: "Polvo Compacto MYK",
     price: 13900,
     category: "Rostro",
-  }, // :contentReference[oaicite:45]{index=45}
+  },
   {
     id: "paleta-rubores-atenea",
     name: "Paleta de Rubores Atenea",
     price: 30000,
     category: "Rostro",
-  }, // :contentReference[oaicite:46]{index=46}
+  },
   {
     id: "rubor-compacto",
     name: "Rubor Compacto",
     price: 10000,
     category: "Rostro",
-  }, // :contentReference[oaicite:47]{index=47}
-  { id: "rubor-ani-k", name: "Rubor ANI-K", price: 18500, category: "Rostro" }, // :contentReference[oaicite:48]{index=48}
+  },
+  { id: "rubor-ani-k", name: "Rubor ANI-K", price: 18500, category: "Rostro" },
   {
     id: "base-alissha",
     name: "Base Alissha",
     price: 19500,
     category: "Rostro",
     note: "Texto en PDF: 'ALIS+SHA'",
-  }, // :contentReference[oaicite:49]{index=49}
+  },
   {
     id: "polvo-suelto-girly-mini",
     name: "Polvo Suelto GIRLY (Mini)",
     price: 21000,
     category: "Rostro",
-  }, // :contentReference[oaicite:50]{index=50}
+  },
   {
     id: "polvo-suelto-girly-grande",
     name: "Polvo Suelto GIRLY (Grande)",
     price: 30000,
     category: "Rostro",
-  }, // :contentReference[oaicite:51]{index=51}
+  },
 
   // ===== SOMBRAS =====
   {
@@ -414,49 +413,49 @@ const products: Product[] = [
     price: 78500,
     category: "Sombras",
     badge: "Premium",
-  }, // :contentReference[oaicite:52]{index=52}
+  },
   {
     id: "paleta-alissha",
     name: "Paleta Alissha",
     price: 22000,
     category: "Sombras",
-  }, // :contentReference[oaicite:53]{index=53}
+  },
   {
     id: "paleta-sombras-atenea-65k",
     name: "Paleta de Sombras Atenea",
     price: 65400,
     category: "Sombras",
-  }, // :contentReference[oaicite:54]{index=54}
+  },
   {
     id: "paleta-sombra-artica",
     name: "Paleta de Sombra Ártica",
     price: 62000,
     category: "Sombras",
-  }, // :contentReference[oaicite:55]{index=55}
+  },
   {
     id: "paleta-nude-18",
     name: "Paleta Nude x18 tonos",
     price: 16000,
     category: "Sombras",
-  }, // :contentReference[oaicite:56]{index=56}
+  },
   {
     id: "paleta-7",
     name: "Paleta x7 tonos",
     price: 14000,
     category: "Sombras",
-  }, // :contentReference[oaicite:57]{index=57}
+  },
   {
     id: "paleta-54",
     name: "Paleta de Sombras x54 tonos",
     price: 31500,
     category: "Sombras",
-  }, // :contentReference[oaicite:58]{index=58}
+  },
   {
     id: "paleta-24",
     name: "Paleta de Sombra x24 tonos",
     price: 17000,
     category: "Sombras",
-  }, // :contentReference[oaicite:59]{index=59}
+  },
 
   // ===== BROCHAS =====
   {
@@ -464,49 +463,49 @@ const products: Product[] = [
     name: "Brocha de Base",
     price: 16900,
     category: "Brochas",
-  }, // :contentReference[oaicite:60]{index=60}
+  },
   {
     id: "brocha-rubor",
     name: "Brocha de Rubor",
     price: 17500,
     category: "Brochas",
-  }, // :contentReference[oaicite:61]{index=61}
+  },
   {
     id: "brocha-doble-trendy",
     name: "Brocha Doble Trendy",
     price: 18000,
     category: "Brochas",
-  }, // :contentReference[oaicite:62]{index=62}
+  },
   {
     id: "brocha-corrector",
     name: "Brocha Corrector",
     price: 13000,
     category: "Brochas",
-  }, // :contentReference[oaicite:63]{index=63}
+  },
   {
     id: "brocha-cejas",
     name: "Brocha de Cejas",
     price: 16900,
     category: "Brochas",
-  }, // :contentReference[oaicite:64]{index=64}
+  },
   {
     id: "kit-brocha-5-trendy",
     name: "Kit Brocha x5 Trendy",
     price: 16000,
     category: "Brochas",
-  }, // :contentReference[oaicite:65]{index=65}
+  },
   {
     id: "kit-brocha-10",
     name: "Kit Brocha x10",
     price: 23000,
     category: "Brochas",
-  }, // :contentReference[oaicite:66]{index=66}
+  },
   {
     id: "kit-brocha-6",
     name: "Kit Brocha x6",
     price: 15500,
     category: "Brochas",
-  }, // :contentReference[oaicite:67]{index=67}
+  },
 
   // ===== ACCESORIOS =====
   {
@@ -514,105 +513,104 @@ const products: Product[] = [
     name: "Molde de Hielo + Masajeador",
     price: 20500,
     category: "Accesorios",
-  }, // :contentReference[oaicite:68]{index=68}
+  },
   {
     id: "cepillo-masajeador",
     name: "Cepillo Masajeador",
     price: 12500,
     category: "Accesorios",
-  }, // :contentReference[oaicite:69]{index=69}
+  },
   {
     id: "sacapunta-bloomshell",
     name: "Sacapunta Bloomshell",
     price: 5000,
     category: "Accesorios",
-  }, // :contentReference[oaicite:70]{index=70}
+  },
   {
     id: "cepillo-pulidor",
     name: "Cepillo Pulidor",
     price: 3000,
     category: "Accesorios",
-  }, // :contentReference[oaicite:71]{index=71}
+  },
   {
     id: "borla-corazon",
     name: "Borla de Corazón",
     price: 4000,
     category: "Accesorios",
-  }, // :contentReference[oaicite:72]{index=72}
+  },
   {
     id: "repuesto-encrespador",
     name: "Set de Repuesto de Encrespador",
     price: 6000,
     category: "Accesorios",
-  }, // :contentReference[oaicite:73]{index=73}
+  },
   {
     id: "set-borlas-12",
     name: "Set de Borlas x12",
     price: 12000,
     category: "Accesorios",
-  }, // :contentReference[oaicite:74]{index=74}
+  },
   {
     id: "encrespados-alissha",
     name: "Encrespados Alissha",
     price: 13500,
     category: "Accesorios",
-  }, // :contentReference[oaicite:75]{index=75}
+  },
   {
     id: "cepillo-montoc",
     name: "Cepillo MONTOC",
     price: 16500,
     category: "Accesorios",
-  }, // :contentReference[oaicite:76]{index=76}
+  },
   {
     id: "caiman-flor-hawaino",
     name: "Caimán de Flor Hawaino",
     price: 5000,
     category: "Accesorios",
-  }, // :contentReference[oaicite:77]{index=77}
+  },
   {
     id: "diadema-nube-muneca",
     name: "Diadema Nube + Muñequera",
     price: 14000,
     category: "Accesorios",
-  }, // :contentReference[oaicite:78]{index=78}
+  },
   {
     id: "set-pinzas-monitas",
     name: "Set de Pinzas + Moñitas",
     price: 5000,
     category: "Accesorios",
-    note: "Agotado",
-  }, // :contentReference[oaicite:79]{index=79}
+  },
   {
     id: "set-monitas",
     name: "Set de Moñitas",
     price: 4000,
     category: "Accesorios",
-  }, // :contentReference[oaicite:80]{index=80}
+  },
   {
     id: "caiman-flor-hawaino-mini",
     name: "Caimán de Flor Hawaino (Mini)",
     price: 3500,
     category: "Accesorios",
-  }, // :contentReference[oaicite:81]{index=81}
+  },
   {
     id: "beauty-blender",
     name: "Beauty Blender",
     price: 3000,
     category: "Accesorios",
-  }, // :contentReference[oaicite:82]{index=82}
+  },
   {
     id: "set-beauty-blender-4",
     name: "Set de Beauty Blender x4",
     price: 10000,
     category: "Accesorios",
-  }, // :contentReference[oaicite:83]{index=83}
+  },
   {
     id: "encrespador-bloomshell",
     name: "encrespador bloomshell",
     price: 15500,
     category: "Accesorios",
     imageUrl: "images/accesorios/encrespador-bloomshell.jpg",
-  }, // :contentReference[oaicite:83]{index=83}
+  },
 
   // ===== CUIDADO FACIAL =====
   {
@@ -620,104 +618,104 @@ const products: Product[] = [
     name: "Serum Ceramidas + Ácido Hialurónico",
     price: 10000,
     category: "Cuidado Facial",
-  }, // :contentReference[oaicite:84]{index=84}
+  },
   {
     id: "serum-de-arroz-bioaqua",
     name: "serum de arroz bioaqua",
     price: 13500,
     category: "Cuidado Facial",
     imageUrl: "images/cuidadofacial/serum-de-arroz-bioaqua.jpg",
-  }, // :contentReference[oaicite:84]{index=84}
+  },
   {
     id: "kit-niacinamida-og-x3",
     name: "Kit de Niacinamida OG x3",
     price: 75500,
     category: "Cuidado Facial",
-  }, // :contentReference[oaicite:85]{index=85}
+  },
   {
     id: "mascarilla-velo-retinal",
     name: "Mascarilla en Velo Retinal",
     price: 3500,
     category: "Cuidado Facial",
-  }, // :contentReference[oaicite:86]{index=86}
+  },
   {
     id: "kit-x3-bioaqua-sueros",
     name: "Kit x3 de Bioaqua (Sueros Faciales)",
     price: 20000,
     category: "Cuidado Facial",
-  }, // :contentReference[oaicite:87]{index=87}
+  },
   {
     id: "kit-arroz-bioaqua",
     name: "Kit de Arroz Bioaqua",
     price: 60000,
     category: "Cuidado Facial",
-  }, // :contentReference[oaicite:88]{index=88}
+  },
   {
     id: "jabon-facial-arroz-bioaqua",
     name: "Jabón Facial de Arroz Bioaqua",
     price: 15500,
     category: "Cuidado Facial",
-  }, // :contentReference[oaicite:89]{index=89}
+  },
   {
     id: "parches-anti-acne-alissha",
     name: "Parches Anti Acné Alissha",
     price: 11000,
     category: "Cuidado Facial",
-  }, // :contentReference[oaicite:90]{index=90}
+  },
   {
     id: "contorno-ojos-rosa-ah",
     name: "Contorno de Ojos (Rosa y Ácido Hialurónico)",
     price: 7500,
     category: "Cuidado Facial",
-  }, // :contentReference[oaicite:91]{index=91}
+  },
   {
     id: "sticker-anti-acne-figuras",
     name: "Sticker Anti Acné (Figuras)",
     price: 8900,
     category: "Cuidado Facial",
-  }, // :contentReference[oaicite:92]{index=92}
+  },
   {
     id: "colageno-ojos",
     name: "Colágeno de Ojos",
     price: 2500,
     category: "Cuidado Facial",
-  }, // :contentReference[oaicite:93]{index=93}
+  },
   {
     id: "doble-colageno",
     name: "Doble Colágeno",
     price: 4500,
     category: "Cuidado Facial",
-  }, // :contentReference[oaicite:94]{index=94}
+  },
   {
     id: "velo-facial",
     name: "Velo Facial",
     price: 3000,
     category: "Cuidado Facial",
-  }, // :contentReference[oaicite:95]{index=95}
+  },
   {
     id: "kit-bioaqua-rosas",
     name: "Kit Bioaqua Rosas",
     price: 65500,
     category: "Cuidado Facial",
-  }, // :contentReference[oaicite:96]{index=96}
+  },
   {
     id: "kit-centella-asiatica",
     name: "Kit Centella Asiática",
     price: 85000,
     category: "Cuidado Facial",
-  }, // :contentReference[oaicite:97]{index=97}
+  },
   {
     id: "kit-bioaqua-retinol",
     name: "Kit Bioaqua Retinol",
     price: 80000,
     category: "Cuidado Facial",
-  }, // :contentReference[oaicite:98]{index=98}
+  },
   {
     id: "kit-bioaqua-ah",
     name: "Kit Bioaqua Ácido Hialurónico",
     price: 75500,
     category: "Cuidado Facial",
-  }, // :contentReference[oaicite:99]{index=99}
+  },
 ];
 
 const badgeColors: Record<Category, string> = {
