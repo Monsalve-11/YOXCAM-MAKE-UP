@@ -30,6 +30,13 @@ const products: Product[] = [
     imageUrl: "images/labios/fat-oil.jpg",
   },
   {
+    id: "lip-oil-purpure",
+    name: "Lip Oil PURPURE",
+    price: 16500,
+    category: "Labios",
+    imageUrl: "images/labios/Lip-oil-purpure.jpg",
+  },
+  {
     id: "lip-tint",
     name: "Lip Tint",
     price: 7000,
@@ -42,6 +49,13 @@ const products: Product[] = [
     price: 12000,
     category: "Labios",
     imageUrl: "images/labios/mascara-reparadora-labios.jpg",
+  },
+  {
+    id: "butter-lip-balm-purpure",
+    name: "Butter Lip Balm PURPURE",
+    price: 17000,
+    category: "Labios",
+    imageUrl: "images/labios/Butter-lip-balm-purpure.jpg",
   },
   {
     id: "delineador-labios-trendy",
@@ -251,6 +265,20 @@ const products: Product[] = [
     imageUrl: "images/rostro/Polvo-suelto-Raquel.jpg",
   },
   {
+    id: "polvo-base-girl-boss-2-en-1-purpure",
+    name: "Polvo Base Girl Boss 2 en 1 PURPURE",
+    price: 24500,
+    category: "Rostro",
+    imageUrl: "images/rostro/Polvo-base-girl-boss-2-en-1-purpure.jpg",
+  },
+  {
+    id: "base-de-maquillaje-purpure",
+    name: "Base de maquillaje purpure",
+    price: 32000,
+    category: "Rostro",
+    imageUrl: "images/rostro/base-de-maquillaje-purpure.jpg",
+  },
+  {
     id: "Iluminador",
     name: "Iluminador",
     price: 8000,
@@ -272,6 +300,13 @@ const products: Product[] = [
     imageUrl: "images/rostro/corrector-alissha.jpg",
   },
   {
+    id: "corrector-chica-purpure",
+    name: "Corrector Chica PURPURE",
+    price: 19500,
+    category: "Rostro",
+    imageUrl: "images/rostro/Corrector-chica-purpure.jpg",
+  },
+  {
     id: "polvo-suelto-paulis",
     name: "Polvo Suelto PAULIS",
     price: 15000,
@@ -291,6 +326,13 @@ const products: Product[] = [
     price: 17000,
     category: "Rostro",
     imageUrl: "images/rostro/Fijador-star-karite.jpg",
+  },
+  {
+    id: "fijador-mini-purpure",
+    name: "Fijador Mini PURPURE",
+    price: 17000,
+    category: "Rostro",
+    imageUrl: "images/rostro/Fijador-mini-purpure.jpg",
   },
   {
     id: "corrector-bloomshell-10ml",
@@ -440,6 +482,13 @@ const products: Product[] = [
     price: 62000,
     category: "Sombras",
     imageUrl: "images/sombras/Paleta-de-sombra-artica.jpg",
+  },
+  {
+    id: "paleta-alissha",
+    name: "Paleta de Sombra ALISSHA",
+    price: 22500,
+    category: "Sombras",
+    imageUrl: "images/sombras/Paleta-de-sombras-alissha.jpg",
   },
   {
     id: "paleta-nude-18",
