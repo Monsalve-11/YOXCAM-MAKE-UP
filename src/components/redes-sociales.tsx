@@ -124,10 +124,18 @@ const SocialLinks: React.FC<Props> = ({
   return (
     <section
       aria-label="Redes sociales"
-      className="mx-auto max-w-7xl px-4 py-6"
+      className="w-full mx-auto px-2 py-4 sm:px-4 sm:py-6"
     >
+      <header className="mb-8 text-center">
+        <h2 className="text-3xl font-bold tracking-tight text-gray-900 pt-15">
+          Redes Sociales
+        </h2>
+        <p className="mt-2 text-gray-700">
+          Síguenos y contáctanos por WhatsApp
+        </p>
+      </header>
       {/* WhatsApp (dos botones) */}
-      <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+      <div className="grid grid-cols-1 gap-3 sm:gap-4 mb-8 w-full max-w-2xl mx-auto">
         {items
           .filter((i) => i.key === "wa1" || i.key === "wa2")
           .map((i) => (
@@ -136,7 +144,7 @@ const SocialLinks: React.FC<Props> = ({
               href={i.href}
               target="_blank"
               rel="noopener noreferrer"
-              className={`group flex items-center justify-center gap-3 rounded-2xl ${i.bg} px-4 py-3 font-semibold text-white shadow-md ring-1 ${i.ring} transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-white/70`}
+              className={`group flex items-center justify-center gap-3 rounded-2xl ${i.bg} px-4 py-3 sm:px-6 sm:py-4 text-sm sm:text-base font-semibold text-white shadow-md ring-1 ${i.ring} transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-white/70 w-full`}
             >
               <span className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-white/15 ring-1 ring-white/20 backdrop-blur-sm transition group-hover:scale-[1.05]">
                 {i.icon}
@@ -147,7 +155,7 @@ const SocialLinks: React.FC<Props> = ({
       </div>
 
       {/* Otras redes */}
-      <div className="mt-4 flex flex-wrap items-center gap-2 sm:gap-3">
+      <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4 mt-10 w-full max-w-3xl mx-auto">
         {items
           .filter((i) => !i.key.startsWith("wa"))
           .map((i) => (
@@ -156,7 +164,7 @@ const SocialLinks: React.FC<Props> = ({
               href={i.href}
               target="_blank"
               rel="noopener noreferrer"
-              className={`group inline-flex items-center gap-2 rounded-full ${i.bg} px-4 py-2 text-sm font-semibold text-white shadow ring-1 ${i.ring} transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-white/70`}
+              className={`group inline-flex items-center justify-center gap-2 rounded-full ${i.bg} px-4 py-2 text-xs sm:text-sm font-semibold text-white shadow ring-1 ${i.ring} transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-white/70 flex-grow sm:flex-grow-0`}
             >
               <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-white/15 ring-1 ring-white/20 backdrop-blur-sm transition group-hover:scale-[1.05]">
                 {i.icon}

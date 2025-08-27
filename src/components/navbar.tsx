@@ -50,7 +50,7 @@ const Navbar: React.FC = () => {
     "focus:outline-none focus-visible:ring-2 focus-visible:ring-white/60 rounded";
 
   return (
-    <header className="sticky top-0 z-40 bg-[#70268c] [padding-top:env(safe-area-inset-top)] text-white shadow-md">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-[#70268c] [padding-top:env(safe-area-inset-top)] text-white shadow-md">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 lg:px-6">
         {/* Logo */}
         <div className="flex items-center gap-3">

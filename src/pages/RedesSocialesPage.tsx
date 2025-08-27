@@ -12,14 +12,6 @@ const RedesSocialesPage: React.FC = () => {
         <main className="flex-1">
           <section className="py-8 md:py-12">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-              <header className="mb-6 text-center">
-                <h2 className="text-2xl font-bold tracking-tight text-gray-900">
-                  Redes Sociales
-                </h2>
-                <p className="mt-1 text-sm text-gray-600">
-                  Síguenos en nuestras redes sociales y contáctanos por WhatsApp
-                </p>
-              </header>
               <SocialLinks
                 whatsappPrimary="573052709376"
                 whatsappSecondary="573025904019"
