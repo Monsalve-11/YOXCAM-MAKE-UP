@@ -140,9 +140,6 @@ const CombosScreen: React.FC = () => {
                 >
                   Pedir por WhatsApp
                 </a>
-                <button className="inline-flex flex-1 items-center justify-center rounded-xl border border-gray-200 bg-white px-3.5 py-2 text-sm font-semibold text-gray-700 transition-all duration-200 hover:border-gray-300 hover:bg-gray-50">
-                  Agregar al carrito
-                </button>
               </div>
             </div>
           </div>
