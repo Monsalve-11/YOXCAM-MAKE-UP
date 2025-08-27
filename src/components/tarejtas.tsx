@@ -770,12 +770,6 @@ const products: Product[] = [
     imageUrl: "images/cuidadofacial/Protector-solar.jpg",
   },
   {
-    id: "parches-anti-acne-alissha",
-    name: "Parches Anti Acné Alissha",
-    price: 11000,
-    category: "Cuidado Facial",
-  },
-  {
     id: "sticker-anti-acne-engol",
     name: "Sticker Anti Acné (Engol)",
     price: 16900,
@@ -803,13 +797,6 @@ const products: Product[] = [
     price: 22900,
     category: "Cuidado Facial",
     imageUrl: "images/cuidadofacial/Crema-hidratante-bloqueador-solar.jpg",
-  },
-  {
-    id: "serum-ceramide-bioaqua",
-    name: "Serum Ceramide Bioaqua",
-    price: 10000,
-    category: "Cuidado Facial",
-    imageUrl: "images/cuidadofacial/Serum-Ceramide-BIOAQUA.jpg",
   },
   {
     id: "protector-solar-en-spray-bioaqua",
