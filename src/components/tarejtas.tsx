@@ -79,13 +79,6 @@ const products: Product[] = [
     imageUrl: "images/labios/CLINK-TINT-BLOOMSHELL.jpg",
   },
   {
-    id: "bloom-gloss",
-    name: "Bloom Gloss",
-    price: 17500,
-    category: "Labios",
-    imageUrl: "images/9.jpg",
-  },
-  {
     id: "delineador-labios-bloomshell",
     name: "Delineador de Labios Bloomshell",
     price: 12000,
@@ -105,13 +98,6 @@ const products: Product[] = [
     price: 5000,
     category: "Labios",
     imageUrl: "images/labios/balsamo-hidratante-fresa.jpg",
-  },
-  {
-    id: "lip-balm-fresa-color",
-    name: "Lip Balm Fresa con Color",
-    price: 4500,
-    category: "Labios",
-    imageUrl: "images/14.jpg",
   },
   {
     id: "tinta-labios-kuromi",
@@ -235,13 +221,6 @@ const products: Product[] = [
     imageUrl: "images/ojos/Pestañina-dolce-bella.jpg",
   },
   {
-    id: "pestanina-ajedrez-kiss",
-    name: "Pestañina Ajedrez KISS",
-    price: 14000,
-    category: "Ojos",
-    imageUrl: "images/29.jpg",
-  },
-  {
     id: "lapiz-ojos-montoc",
     name: "Lápiz de Ojos MONTOC",
     price: 15500,
@@ -316,7 +295,7 @@ const products: Product[] = [
   {
     id: "corrector-bloomshell-10ml",
     name: "Corrector Bloomshell 10ml",
-    price: 1500,
+    price: 19500,
     category: "Rostro",
     imageUrl: "images/rostro/Corrector-bloomshell-de-10ml.jpg",
   },
@@ -374,6 +353,7 @@ const products: Product[] = [
     name: "Corrector Grande Trendy",
     price: 26000,
     category: "Rostro",
+    imageUrl: "images/rostro/Corrector-grande-de-trendy.jpg",
   },
   {
     id: "base-matte-alissha",
@@ -391,9 +371,10 @@ const products: Product[] = [
   },
   {
     id: "paleta-rubores-atenea",
-    name: "Paleta de Rubores Atenea",
-    price: 30000,
+    name: "Paleta De Rubores Atenea",
+    price: 11000,
     category: "Rostro",
+    imageUrl: "images/rostro/paleta-rubores-atenea.jpg",
   },
   {
     id: "rubor-compacto",
@@ -454,12 +435,6 @@ const products: Product[] = [
     imageUrl: "images/sombras/Paleta-de-sombra-alissha.jpg",
   },
   {
-    id: "paleta-sombras-atenea-65k",
-    name: "Paleta de Sombras Atenea",
-    price: 65400,
-    category: "Sombras",
-  },
-  {
     id: "paleta-sombra-artica",
     name: "Paleta de Sombra Ártica",
     price: 62000,
@@ -479,12 +454,6 @@ const products: Product[] = [
     price: 14000,
     category: "Sombras",
     imageUrl: "images/sombras/Paleta-de-sombra-x9-tonos.jpg",
-  },
-  {
-    id: "paleta-7",
-    name: "Paleta x7 tonos",
-    price: 14000,
-    category: "Sombras",
   },
   {
     id: "paleta-54",
@@ -612,14 +581,9 @@ const products: Product[] = [
   {
     id: "encrespados-alissha",
     name: "Encrespados Alissha",
-    price: 13500,
+    price: 15000,
     category: "Accesorios",
-  },
-  {
-    id: "cepillo-montoc",
-    name: "Cepillo MONTOC",
-    price: 16500,
-    category: "Accesorios",
+    imageUrl: "images/accesorios/Encrespador aliSsha.jpg",
   },
   {
     id: "cepillo-engol",
@@ -717,7 +681,7 @@ const products: Product[] = [
   {
     id: "mascarilla-ah",
     name: "Mascarilla ácido hialurónico",
-    price: 3500,
+    price: 4500,
     category: "Cuidado Facial",
     imageUrl: "images/cuidadofacial/Mascarilla-ácido-hialurónico.jpg",
   },
@@ -808,33 +772,9 @@ const products: Product[] = [
   {
     id: "crema-hidratante-bioaqua",
     name: "Crema Hidratante Bioaqua",
-    price: 15000,
+    price: 15500,
     category: "Cuidado Facial",
     imageUrl: "images/cuidadofacial/Crema-hidratante-BIOAQUA.jpg",
-  },
-  {
-    id: "sticker-anti-acne-figuras",
-    name: "Sticker Anti Acné (Figuras)",
-    price: 8900,
-    category: "Cuidado Facial",
-  },
-  {
-    id: "colageno-ojos",
-    name: "Colágeno de Ojos",
-    price: 2500,
-    category: "Cuidado Facial",
-  },
-  {
-    id: "doble-colageno",
-    name: "Doble Colágeno",
-    price: 4500,
-    category: "Cuidado Facial",
-  },
-  {
-    id: "velo-facial",
-    name: "Velo Facial",
-    price: 3000,
-    category: "Cuidado Facial",
   },
   {
     id: "kit-bioaqua-rosas",
@@ -856,12 +796,6 @@ const products: Product[] = [
     price: 65500,
     category: "Cuidado Facial",
     imageUrl: "images/cuidadofacial/Kit-de-retinol.jpg",
-  },
-  {
-    id: "kit-bioaqua-ah",
-    name: "Kit Bioaqua Ácido Hialurónico",
-    price: 75500,
-    category: "Cuidado Facial",
   },
 ];
 
