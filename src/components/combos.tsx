@@ -38,7 +38,7 @@ const combos: Combo[] = [
     id: "Bolsita-de-maquillaje",
     name: "Bolsita de Maquillaje",
     description:
-      "Presentación tipo malteada con tus productos favoritos. Ideal para ocasiones especiales.",
+      "Presentación tipo bolsita de regalo con tus productos de maquillaje favoritos . Ideal para ocasiones especiales",
     note: "Personalizable",
     imageUrl: "images/combos/Bolsita-de-maquillaje.jpg",
   },
